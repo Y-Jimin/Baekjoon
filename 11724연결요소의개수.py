@@ -1,3 +1,8 @@
+import sys
+sys.setrecursionlimit(10**6)
+# 1. 빠른 입력을 위해 필수!
+input = sys.stdin.readline
+
 n,m = map(int, input().split())
 graph = [[] for _ in range(n+1)]
 visited = [False for _ in range(n+1)]
