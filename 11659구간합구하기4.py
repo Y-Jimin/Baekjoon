@@ -1,3 +1,6 @@
+import sys # 시간 초과 뜰 때, 이거 먼저 고려하기
+input=sys.stdin.readline # 시간 초과 뜰 때, 이거 먼저 고려하기
+
 n,m = map(int, input().split())
 num = list(map(int, input().split()))
 
